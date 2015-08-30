@@ -1,6 +1,5 @@
 require 'twitter'
 require 'open-uri'
-require 'pry'
 
 adjective_url = "https://gist.githubusercontent.com/farisj/cc70300356eca8f54c47/raw/9885ef80b27c3834d654a158fe8d90321725c154/adjectives.txt"
 
