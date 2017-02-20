@@ -1,7 +1,7 @@
 require 'twitter'
 require 'open-uri'
 
-adjective_url = "https://gist.githubusercontent.com/farisj/cc70300356eca8f54c47/raw/b4fe2114b69a6b14adc040d3b78736c0906eaebe/adjectives.txt"
+adjective_url = "https://gist.githubusercontent.com/farisj/cc70300356eca8f54c47/raw"
 
 adjectives = open(adjective_url).read.split("\n")
 
