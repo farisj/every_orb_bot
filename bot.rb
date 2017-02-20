@@ -1,6 +1,8 @@
 require 'twitter'
 require 'open-uri'
 
+exit unless ((Time.now.hour % 2) == 0)
+
 adjective_url = "https://gist.githubusercontent.com/farisj/cc70300356eca8f54c47/raw"
 
 adjectives = open(adjective_url).read.split("\n")
